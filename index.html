@@ -6,11 +6,10 @@
 </head>
 <body>
   <form>
-    <label for="nom">Votre nom  : </label><input type="text" name="nom" value="" onblur="focus()" id="nom"/>
+    <label for="nom">Votre nom  : </label><input type="text" name="nom" value="" onblur="nofocus();" id="nom"/>
   </form>
   <script>
-      function focus() {
-        document.getElementById("nom");
+      function nofocus(){
         alert('Merci de votre participation');
       }
   </script>
